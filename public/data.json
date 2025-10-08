@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "image": "/images/focusflow.png",
+    "image": "https://i.ibb.co.com/F41m0sjS/image.png",
     "title": "FocusFlow - Productivity Timer",
     "companyName": "ZenWorks Ltd.",
     "description": "Boost your productivity with the Pomodoro-based FocusFlow app that helps you stay on task and take breaks efficiently.",
@@ -19,7 +19,7 @@
   },
   {
     "id": 2,
-    "image": "/images/taskhub.png",
+    "image": "https://i.ibb.co.com/9HRfSbx5/image.png",
     "title": "TaskHub - To-Do Manager",
     "companyName": "CloudNest Apps",
     "description": "Organize your tasks, set reminders, and collaborate with teammates effortlessly using TaskHub.",
@@ -37,7 +37,7 @@
   },
   {
     "id": 3,
-    "image": "/images/notemate.png",
+    "image": "https://i.ibb.co.com/1tvS7J3c/image.png",
     "title": "NoteMate - Smart Notes",
     "companyName": "NextGen Tools",
     "description": "Capture and organize your ideas instantly with NoteMate. Sync across devices and stay inspired.",
@@ -55,7 +55,7 @@
   },
   {
     "id": 4,
-    "image": "/images/fittrack.png",
+    "image": "https://i.ibb.co.com/Z6FmpR2h/image.png",
     "title": "FitTrack - Health & Steps",
     "companyName": "BodySync Ltd.",
     "description": "Track your steps, calories, and fitness goals with FitTrack’s intuitive dashboard and reports.",
@@ -73,7 +73,7 @@
   },
   {
     "id": 5,
-    "image": "/images/mindzen.png",
+    "image": "https://i.ibb.co.com/XZWmJwcq/image.png",
     "title": "MindZen - Meditation & Relax",
     "companyName": "Calmify Apps",
     "description": "Reduce stress and improve focus with guided meditations and ambient sounds in MindZen.",
@@ -91,7 +91,174 @@
   },
   {
     "id": 6,
-    "image": "/images/habitly.png",
+    "image": "https://i.ibb.co.com/F41m0sjS/image.png",
+    "title": "FocusFlow - Productivity Timer",
+    "companyName": "ZenWorks Ltd.",
+    "description": "Boost your productivity with the Pomodoro-based FocusFlow app that helps you stay on task and take breaks efficiently.",
+    "size": 42,
+    "reviews": 1800,
+    "ratingAvg": 4.8,
+    "downloads": 920000,
+    "ratings": [
+      { "name": "1 star", "count": 80 },
+      { "name": "2 star", "count": 120 },
+      { "name": "3 star", "count": 240 },
+      { "name": "4 star", "count": 410 },
+      { "name": "5 star", "count": 950 }
+    ]
+  },
+  
+  {
+    "id": 7,
+    "image": "https://i.ibb.co.com/PGCJVYqZ/image.png",
+    "title": "Musicify - Stream Your Vibes",
+    "companyName": "EchoWave Studios",
+    "description": "Enjoy ad-free streaming, curated playlists, and offline mode in the Musicify app.",
+    "size": 55,
+    "reviews": 2950,
+    "ratingAvg": 4.9,
+    "downloads": 3100000,
+    "ratings": [
+      { "name": "1 star", "count": 150 },
+      { "name": "2 star", "count": 160 },
+      { "name": "3 star", "count": 300 },
+      { "name": "4 star", "count": 680 },
+      { "name": "5 star", "count": 1660 }
+    ]
+  },
+
+  {
+    "id": 8,
+    "image": "https://i.ibb.co.com/4n7mdb5j/image.png",
+    "title": "ShopWise - Online Shopping",
+    "companyName": "MegaMart Inc.",
+    "description": "Find the best deals and discounts on fashion, electronics, and groceries with ShopWise.",
+    "size": 68,
+    "reviews": 5200,
+    "ratingAvg": 4.6,
+    "downloads": 3400000,
+    "ratings": [
+      { "name": "1 star", "count": 250 },
+      { "name": "2 star", "count": 200 },
+      { "name": "3 star", "count": 440 },
+      { "name": "4 star", "count": 850 },
+      { "name": "5 star", "count": 3460 }
+    ]
+  },
+
+  {
+    "id": 9,
+    "image": "https://i.ibb.co.com/WJJ3PfG/image.png",
+    "title": "Alarmy - Smart Alarm Clock",
+    "companyName": "WakeUp Apps",
+    "description": "Wake up smarter with Alarmy’s puzzles and missions that ensure you never oversleep again.",
+    "size": 41,
+    "reviews": 1750,
+    "ratingAvg": 4.6,
+    "downloads": 910000,
+    "ratings": [
+      { "name": "1 star", "count": 90 },
+      { "name": "2 star", "count": 100 },
+      { "name": "3 star", "count": 190 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 970 }
+    ]
+  },
+  {
+    "id": 10,
+    "image": "https://i.ibb.co.com/Cd7LTND/image.png",
+    "title": "TimePlanner - Schedule & Tasks",
+    "companyName": "FlowSync",
+    "description": "Easily manage tasks and events with TimePlanner’s visual scheduling interface.",
+    "size": 44,
+    "reviews": 1300,
+    "ratingAvg": 4.5,
+    "downloads": 760000,
+    "ratings": [
+      { "name": "1 star", "count": 70 },
+      { "name": "2 star", "count": 110 },
+      { "name": "3 star", "count": 190 },
+      { "name": "4 star", "count": 310 },
+      { "name": "5 star", "count": 620 }
+    ]
+  },
+  {
+    "id": 11,
+    "image": "https://i.ibb.co.com/F41m0sjS/image.png",
+    "title": "FocusPlant - Pomodoro Forest",
+    "companyName": "GrowMore Studios",
+    "description": "Stay productive and grow your virtual forest using Pomodoro sessions that reward focus.",
+    "size": 48,
+    "reviews": 2100,
+    "ratingAvg": 4.7,
+    "downloads": 990000,
+    "ratings": [
+      { "name": "1 star", "count": 60 },
+      { "name": "2 star", "count": 100 },
+      { "name": "3 star", "count": 220 },
+      { "name": "4 star", "count": 420 },
+      { "name": "5 star", "count": 1300 }
+    ]
+  },
+
+  {
+    "id": 12,
+    "image": "https://i.ibb.co.com/7dYNVNsp/image.png",
+    "title": "Foodora - Food Delivery",
+    "companyName": "UrbanEats Co.",
+    "description": "Order food from your favorite restaurants and track your delivery in real-time with Foodora.",
+    "size": 70,
+    "reviews": 3200,
+    "ratingAvg": 4.7,
+    "downloads": 2200000,
+    "ratings": [
+      { "name": "1 star", "count": 210 },
+      { "name": "2 star", "count": 150 },
+      { "name": "3 star", "count": 300 },
+      { "name": "4 star", "count": 720 },
+      { "name": "5 star", "count": 1820 }
+    ]
+  },
+  {
+    "id": 13,
+    "image": "https://i.ibb.co.com/MkDpXGn9/image.png",
+    "title": "TravelGo - Flight & Hotel Deals",
+    "companyName": "WanderSoft",
+    "description": "Discover and book cheap flights, hotels, and vacation packages with TravelGo’s smart deals.",
+    "size": 49,
+    "reviews": 1850,
+    "ratingAvg": 4.5,
+    "downloads": 760000,
+    "ratings": [
+      { "name": "1 star", "count": 120 },
+      { "name": "2 star", "count": 130 },
+      { "name": "3 star", "count": 220 },
+      { "name": "4 star", "count": 470 },
+      { "name": "5 star", "count": 910 }
+    ]
+  },
+
+    {
+    "id": 14,
+    "image": "https://i.ibb.co.com/j9HMgz7w/demo-app-6.webp",
+    "title": "PlanMate - Daily Planner",
+    "companyName": "SmartLife Inc.",
+    "description": "Manage your time better with PlanMate’s smart scheduling and productivity insights.",
+    "size": 39,
+    "reviews": 1620,
+    "ratingAvg": 4.5,
+    "downloads": 820000,
+    "ratings": [
+      { "name": "1 star", "count": 80 },
+      { "name": "2 star", "count": 110 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 350 },
+      { "name": "5 star", "count": 880 }
+    ]
+  },
+  {
+    "id": 15,
+    "image": "https://i.ibb.co.com/JwVDjkwL/image.png",
     "title": "Habitly - Build Better Habits",
     "companyName": "FutureWare",
     "description": "Create routines and build life-changing habits with smart reminders and streak tracking.",
@@ -107,166 +274,24 @@
       { "name": "5 star", "count": 450 }
     ]
   },
+
+
   {
-    "id": 7,
-    "image": "/images/studysync.png",
-    "title": "StudySync - Learn Smart",
-    "companyName": "EduTech Co.",
-    "description": "Boost your academic performance with personalized study planners and progress tracking.",
-    "size": 45,
-    "reviews": 1980,
-    "ratingAvg": 4.7,
-    "downloads": 880000,
-    "ratings": [
-      { "name": "1 star", "count": 80 },
-      { "name": "2 star", "count": 120 },
-      { "name": "3 star", "count": 240 },
-      { "name": "4 star", "count": 400 },
-      { "name": "5 star", "count": 1140 }
-    ]
-  },
-  {
-    "id": 8,
-    "image": "/images/fintrack.png",
-    "title": "FinTrack - Expense Manager",
-    "companyName": "SmartMoney Labs",
-    "description": "Manage your expenses, budgets, and financial goals with FinTrack’s smart insights.",
-    "size": 37,
-    "reviews": 1560,
-    "ratingAvg": 4.6,
-    "downloads": 750000,
-    "ratings": [
-      { "name": "1 star", "count": 100 },
-      { "name": "2 star", "count": 150 },
-      { "name": "3 star", "count": 250 },
-      { "name": "4 star", "count": 410 },
-      { "name": "5 star", "count": 650 }
-    ]
-  },
-  {
-    "id": 9,
-    "image": "/images/langloop.png",
-    "title": "LangLoop - Language Learner",
-    "companyName": "Polyglot Apps",
-    "description": "Learn new languages interactively with flashcards, games, and pronunciation practice.",
-    "size": 55,
-    "reviews": 1320,
-    "ratingAvg": 4.3,
-    "downloads": 660000,
-    "ratings": [
-      { "name": "1 star", "count": 110 },
-      { "name": "2 star", "count": 160 },
-      { "name": "3 star", "count": 240 },
-      { "name": "4 star", "count": 350 },
-      { "name": "5 star", "count": 460 }
-    ]
-  },
-  {
-    "id": 10,
-    "image": "/images/sleeptide.png",
-    "title": "SleepTide - Sleep Sounds",
-    "companyName": "Calmify Apps",
-    "description": "Fall asleep faster with peaceful nature sounds and sleep tracking analytics.",
-    "size": 47,
-    "reviews": 1420,
-    "ratingAvg": 4.8,
-    "downloads": 920000,
-    "ratings": [
-      { "name": "1 star", "count": 60 },
-      { "name": "2 star", "count": 80 },
-      { "name": "3 star", "count": 150 },
-      { "name": "4 star", "count": 330 },
-      { "name": "5 star", "count": 800 }
-    ]
-  },
-  {
-    "id": 11,
-    "image": "/images/dailyjournal.png",
-    "title": "DailyJournal - Diary & Mood",
-    "companyName": "MindTech",
-    "description": "Keep track of your thoughts and emotions with our smart journaling app.",
-    "size": 32,
-    "reviews": 880,
-    "ratingAvg": 4.5,
-    "downloads": 510000,
-    "ratings": [
-      { "name": "1 star", "count": 70 },
-      { "name": "2 star", "count": 90 },
-      { "name": "3 star", "count": 180 },
-      { "name": "4 star", "count": 250 },
-      { "name": "5 star", "count": 290 }
-    ]
-  },
-  {
-    "id": 12,
-    "image": "/images/planwise.png",
-    "title": "PlanWise - Schedule Planner",
-    "companyName": "WorkFlow Studio",
-    "description": "Plan your week with visual timelines, reminders, and smart syncing features.",
-    "size": 40,
-    "reviews": 1150,
-    "ratingAvg": 4.4,
-    "downloads": 690000,
-    "ratings": [
-      { "name": "1 star", "count": 100 },
-      { "name": "2 star", "count": 120 },
-      { "name": "3 star", "count": 230 },
-      { "name": "4 star", "count": 290 },
-      { "name": "5 star", "count": 410 }
-    ]
-  },
-  {
-    "id": 13,
-    "image": "/images/readly.png",
-    "title": "Readly - Speed Reading Trainer",
-    "companyName": "BrainBoosters",
-    "description": "Improve your reading speed and comprehension through guided practice sessions.",
-    "size": 25,
-    "reviews": 640,
-    "ratingAvg": 4.2,
-    "downloads": 480000,
-    "ratings": [
-      { "name": "1 star", "count": 70 },
-      { "name": "2 star", "count": 90 },
-      { "name": "3 star", "count": 140 },
-      { "name": "4 star", "count": 160 },
-      { "name": "5 star", "count": 180 }
-    ]
-  },
-  {
-    "id": 14,
-    "image": "/images/climatex.png",
-    "title": "ClimaTex - Weather Tracker",
-    "companyName": "SkyScan Ltd.",
-    "description": "Get accurate forecasts, alerts, and air quality updates with ClimaTex.",
-    "size": 52,
-    "reviews": 1700,
-    "ratingAvg": 4.6,
-    "downloads": 980000,
-    "ratings": [
-      { "name": "1 star", "count": 80 },
-      { "name": "2 star", "count": 120 },
-      { "name": "3 star", "count": 230 },
-      { "name": "4 star", "count": 420 },
-      { "name": "5 star", "count": 850 }
-    ]
-  },
-  {
-    "id": 15,
-    "image": "/images/timeplan.png",
-    "title": "TimePlan - Task Scheduler",
-    "companyName": "NextGen Tools",
-    "description": "Stay on top of your daily tasks and meetings with TimePlan’s sleek interface.",
+    "id": 16,
+    "image": "https://i.ibb.co.com/wN4LpHWC/image.png",
+    "title": "SnapLink - Smart Social Sharing",
+    "companyName": "SocialHive",
+    "description": "Create, shorten, and track your social links easily across all your favorite platforms.",
     "size": 29,
-    "reviews": 780,
-    "ratingAvg": 4.3,
-    "downloads": 530000,
+    "reviews": 1220,
+    "ratingAvg": 4.4,
+    "downloads": 560000,
     "ratings": [
-      { "name": "1 star", "count": 60 },
-      { "name": "2 star", "count": 100 },
-      { "name": "3 star", "count": 180 },
-      { "name": "4 star", "count": 210 },
-      { "name": "5 star", "count": 230 }
+      { "name": "1 star", "count": 90 },
+      { "name": "2 star", "count": 110 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 350 },
+      { "name": "5 star", "count": 470 }
     ]
   }
 ]
