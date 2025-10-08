@@ -3,7 +3,7 @@ import Banner from '../Components/Banner';
 
 const Home = () => {
     return (
-        <div>
+        <div className='bg-gray-200'>
             <Banner></Banner>
         </div>
     );
