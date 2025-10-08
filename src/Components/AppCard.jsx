@@ -6,8 +6,9 @@ import { Link } from 'react-router';
 const AppCard = ({ app }) => {
     const{ image,title,downloads,ratingAvg,id} = app
     console.log(app)
+
     return (
-    <Link to={`/AppDetails/${id}`} state={app} className='mb-2'>
+    <Link to={`/AppDetails/${id}`} state={app} >
       <div className="bg-white h-full shadow-md rounded-xl flex flex-col justify-between hover:scale-105 transition duration-300 ">
         <figure className="md:h-48 overflow-hidden  mx-auto p-5">
           <img src={image} alt="App Icon" className="rounded-xl mx-auto" />

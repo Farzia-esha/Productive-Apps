@@ -71,8 +71,7 @@ const Navbar = () => {
             <Link
               to="https://github.com/Farzia-esha"
               target="_blank"
-              className="btn bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-white text-xl border-none"
-            >
+              className="btn bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-white text-xl border-none">
               <FaGithub className=" size-5 rounded-2xl " /> Contribute
             </Link>
           </div>
