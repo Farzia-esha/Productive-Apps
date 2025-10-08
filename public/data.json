@@ -1,0 +1,272 @@
+[
+  {
+    "id": 1,
+    "image": "/images/focusflow.png",
+    "title": "FocusFlow - Productivity Timer",
+    "companyName": "ZenWorks Ltd.",
+    "description": "Boost your productivity with the Pomodoro-based FocusFlow app that helps you stay on task and take breaks efficiently.",
+    "size": 42,
+    "reviews": 1800,
+    "ratingAvg": 4.8,
+    "downloads": 920000,
+    "ratings": [
+      { "name": "1 star", "count": 80 },
+      { "name": "2 star", "count": 120 },
+      { "name": "3 star", "count": 240 },
+      { "name": "4 star", "count": 410 },
+      { "name": "5 star", "count": 950 }
+    ]
+  },
+  {
+    "id": 2,
+    "image": "/images/taskhub.png",
+    "title": "TaskHub - To-Do Manager",
+    "companyName": "CloudNest Apps",
+    "description": "Organize your tasks, set reminders, and collaborate with teammates effortlessly using TaskHub.",
+    "size": 35,
+    "reviews": 1450,
+    "ratingAvg": 4.6,
+    "downloads": 870000,
+    "ratings": [
+      { "name": "1 star", "count": 60 },
+      { "name": "2 star", "count": 100 },
+      { "name": "3 star", "count": 250 },
+      { "name": "4 star", "count": 500 },
+      { "name": "5 star", "count": 540 }
+    ]
+  },
+  {
+    "id": 3,
+    "image": "/images/notemate.png",
+    "title": "NoteMate - Smart Notes",
+    "companyName": "NextGen Tools",
+    "description": "Capture and organize your ideas instantly with NoteMate. Sync across devices and stay inspired.",
+    "size": 28,
+    "reviews": 970,
+    "ratingAvg": 4.5,
+    "downloads": 650000,
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 90 },
+      { "name": "3 star", "count": 190 },
+      { "name": "4 star", "count": 320 },
+      { "name": "5 star", "count": 330 }
+    ]
+  },
+  {
+    "id": 4,
+    "image": "/images/fittrack.png",
+    "title": "FitTrack - Health & Steps",
+    "companyName": "BodySync Ltd.",
+    "description": "Track your steps, calories, and fitness goals with FitTrack’s intuitive dashboard and reports.",
+    "size": 58,
+    "reviews": 2200,
+    "ratingAvg": 4.7,
+    "downloads": 1200000,
+    "ratings": [
+      { "name": "1 star", "count": 100 },
+      { "name": "2 star", "count": 160 },
+      { "name": "3 star", "count": 340 },
+      { "name": "4 star", "count": 520 },
+      { "name": "5 star", "count": 1080 }
+    ]
+  },
+  {
+    "id": 5,
+    "image": "/images/mindzen.png",
+    "title": "MindZen - Meditation & Relax",
+    "companyName": "Calmify Apps",
+    "description": "Reduce stress and improve focus with guided meditations and ambient sounds in MindZen.",
+    "size": 50,
+    "reviews": 1890,
+    "ratingAvg": 4.9,
+    "downloads": 980000,
+    "ratings": [
+      { "name": "1 star", "count": 70 },
+      { "name": "2 star", "count": 80 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 420 },
+      { "name": "5 star", "count": 1170 }
+    ]
+  },
+  {
+    "id": 6,
+    "image": "/images/habitly.png",
+    "title": "Habitly - Build Better Habits",
+    "companyName": "FutureWare",
+    "description": "Create routines and build life-changing habits with smart reminders and streak tracking.",
+    "size": 31,
+    "reviews": 1200,
+    "ratingAvg": 4.4,
+    "downloads": 570000,
+    "ratings": [
+      { "name": "1 star", "count": 90 },
+      { "name": "2 star", "count": 130 },
+      { "name": "3 star", "count": 210 },
+      { "name": "4 star", "count": 320 },
+      { "name": "5 star", "count": 450 }
+    ]
+  },
+  {
+    "id": 7,
+    "image": "/images/studysync.png",
+    "title": "StudySync - Learn Smart",
+    "companyName": "EduTech Co.",
+    "description": "Boost your academic performance with personalized study planners and progress tracking.",
+    "size": 45,
+    "reviews": 1980,
+    "ratingAvg": 4.7,
+    "downloads": 880000,
+    "ratings": [
+      { "name": "1 star", "count": 80 },
+      { "name": "2 star", "count": 120 },
+      { "name": "3 star", "count": 240 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 1140 }
+    ]
+  },
+  {
+    "id": 8,
+    "image": "/images/fintrack.png",
+    "title": "FinTrack - Expense Manager",
+    "companyName": "SmartMoney Labs",
+    "description": "Manage your expenses, budgets, and financial goals with FinTrack’s smart insights.",
+    "size": 37,
+    "reviews": 1560,
+    "ratingAvg": 4.6,
+    "downloads": 750000,
+    "ratings": [
+      { "name": "1 star", "count": 100 },
+      { "name": "2 star", "count": 150 },
+      { "name": "3 star", "count": 250 },
+      { "name": "4 star", "count": 410 },
+      { "name": "5 star", "count": 650 }
+    ]
+  },
+  {
+    "id": 9,
+    "image": "/images/langloop.png",
+    "title": "LangLoop - Language Learner",
+    "companyName": "Polyglot Apps",
+    "description": "Learn new languages interactively with flashcards, games, and pronunciation practice.",
+    "size": 55,
+    "reviews": 1320,
+    "ratingAvg": 4.3,
+    "downloads": 660000,
+    "ratings": [
+      { "name": "1 star", "count": 110 },
+      { "name": "2 star", "count": 160 },
+      { "name": "3 star", "count": 240 },
+      { "name": "4 star", "count": 350 },
+      { "name": "5 star", "count": 460 }
+    ]
+  },
+  {
+    "id": 10,
+    "image": "/images/sleeptide.png",
+    "title": "SleepTide - Sleep Sounds",
+    "companyName": "Calmify Apps",
+    "description": "Fall asleep faster with peaceful nature sounds and sleep tracking analytics.",
+    "size": 47,
+    "reviews": 1420,
+    "ratingAvg": 4.8,
+    "downloads": 920000,
+    "ratings": [
+      { "name": "1 star", "count": 60 },
+      { "name": "2 star", "count": 80 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 330 },
+      { "name": "5 star", "count": 800 }
+    ]
+  },
+  {
+    "id": 11,
+    "image": "/images/dailyjournal.png",
+    "title": "DailyJournal - Diary & Mood",
+    "companyName": "MindTech",
+    "description": "Keep track of your thoughts and emotions with our smart journaling app.",
+    "size": 32,
+    "reviews": 880,
+    "ratingAvg": 4.5,
+    "downloads": 510000,
+    "ratings": [
+      { "name": "1 star", "count": 70 },
+      { "name": "2 star", "count": 90 },
+      { "name": "3 star", "count": 180 },
+      { "name": "4 star", "count": 250 },
+      { "name": "5 star", "count": 290 }
+    ]
+  },
+  {
+    "id": 12,
+    "image": "/images/planwise.png",
+    "title": "PlanWise - Schedule Planner",
+    "companyName": "WorkFlow Studio",
+    "description": "Plan your week with visual timelines, reminders, and smart syncing features.",
+    "size": 40,
+    "reviews": 1150,
+    "ratingAvg": 4.4,
+    "downloads": 690000,
+    "ratings": [
+      { "name": "1 star", "count": 100 },
+      { "name": "2 star", "count": 120 },
+      { "name": "3 star", "count": 230 },
+      { "name": "4 star", "count": 290 },
+      { "name": "5 star", "count": 410 }
+    ]
+  },
+  {
+    "id": 13,
+    "image": "/images/readly.png",
+    "title": "Readly - Speed Reading Trainer",
+    "companyName": "BrainBoosters",
+    "description": "Improve your reading speed and comprehension through guided practice sessions.",
+    "size": 25,
+    "reviews": 640,
+    "ratingAvg": 4.2,
+    "downloads": 480000,
+    "ratings": [
+      { "name": "1 star", "count": 70 },
+      { "name": "2 star", "count": 90 },
+      { "name": "3 star", "count": 140 },
+      { "name": "4 star", "count": 160 },
+      { "name": "5 star", "count": 180 }
+    ]
+  },
+  {
+    "id": 14,
+    "image": "/images/climatex.png",
+    "title": "ClimaTex - Weather Tracker",
+    "companyName": "SkyScan Ltd.",
+    "description": "Get accurate forecasts, alerts, and air quality updates with ClimaTex.",
+    "size": 52,
+    "reviews": 1700,
+    "ratingAvg": 4.6,
+    "downloads": 980000,
+    "ratings": [
+      { "name": "1 star", "count": 80 },
+      { "name": "2 star", "count": 120 },
+      { "name": "3 star", "count": 230 },
+      { "name": "4 star", "count": 420 },
+      { "name": "5 star", "count": 850 }
+    ]
+  },
+  {
+    "id": 15,
+    "image": "/images/timeplan.png",
+    "title": "TimePlan - Task Scheduler",
+    "companyName": "NextGen Tools",
+    "description": "Stay on top of your daily tasks and meetings with TimePlan’s sleek interface.",
+    "size": 29,
+    "reviews": 780,
+    "ratingAvg": 4.3,
+    "downloads": 530000,
+    "ratings": [
+      { "name": "1 star", "count": 60 },
+      { "name": "2 star", "count": 100 },
+      { "name": "3 star", "count": 180 },
+      { "name": "4 star", "count": 210 },
+      { "name": "5 star", "count": 230 }
+    ]
+  }
+]
