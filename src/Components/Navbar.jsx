@@ -6,7 +6,7 @@ import { FaGithub } from "react-icons/fa";
 const Navbar = () => {
   const navLinks = (
     <div className="flex flex-col md:flex-row md:gap-10 font-semibold">
-      <NavLink to="/" className="md:bg-gradient-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text md:text-transparent text-xl flex items-center gap-2 md:underline md:decoration-[#894FEC]">
+      <NavLink to="/" className="md:bg-gradient-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text md:text-transparent text-lg flex items-center gap-2 md:underline md:decoration-[#894FEC]">
        Home
       </NavLink>
       <NavLink to="/apps" className=" text-lg flex items-center gap-2">
