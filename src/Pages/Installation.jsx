@@ -1,19 +1,20 @@
 import React from 'react';
 
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { IoIosArrowDown } from "react-icons/io";
 import downlaodImg from '../assets/icon-downloads.png'
 import ratingImg from '../assets/icon-ratings.png'
+import { loadApplist, removeFromInstall } from '../Utils/localStorage';
 
 
 const Installation = () => {
-  const [showInstalled, setShowInstalled] = useState([]);
-  const [sortOrder, setSortOrder] = useState("");
+  const [showInstalled, setShowInstalled] = useState(()=>loadApplist());
+  const [sortOrder, setSortOrder] = useState("none");
 
-  useEffect(() => {
-    const savedList =JSON.parse(localStorage.getItem('install'))
-    if(savedList) setShowInstalled(savedList)
-  }, []);
+  // useEffect(() => {
+  //   const savedList =JSON.parse(localStorage.getItem('install'))
+  //   if(savedList) setShowInstalled(savedList)
+  // }, []);
 
 
   const sortedItem = (() => {
@@ -28,11 +29,13 @@ const Installation = () => {
 
 
       const handleUninstall =(id)=>{
-      const existingList=JSON.parse(localStorage.getItem('install'))
-      let updatedList= existingList.filter(a=>a.id !==id)
+      // const existingList=JSON.parse(localStorage.getItem('install'))
+      // let updatedList= existingList.filter(a=>a.id !==id)
 
-    setShowInstalled(updatedList)
-      localStorage.setItem('install',JSON.stringify(updatedList))
+      removeFromInstall(id)
+
+    setShowInstalled(prev=>prev.filter(a=>a.id !== id))
+      // localStorage.setItem('install',JSON.stringify(updatedList))
 
     }
 

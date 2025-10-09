@@ -13,6 +13,7 @@ import {
   XAxis,
   YAxis,
 } from "recharts";
+import { updateList } from '../Utils/localStorage';
 
 const AppDetails = () => {
     const {id} =useParams();
@@ -23,24 +24,24 @@ const AppDetails = () => {
     if(loading) return <p>Loading...</p>
     const {image,title,companyName,description,size,reviews,ratingAvg,downloads,ratings}= app || {}
 
-    const handleAddToInstall =()=>{
-      const existingList=JSON.parse(localStorage.getItem('install'))
+    // const handleAddToInstall =()=>{
+    //   const existingList=JSON.parse(localStorage.getItem('install'))
 
-      // console.log(JSON.parse(existingList))
+    //   // console.log(JSON.parse(existingList))
 
-      let updatedList=[]
-      if(existingList){
-        const isDuplicate =existingList.some(a=>a.id===app.id)
-        if(isDuplicate) return alert('Installed')
-        updatedList=[...existingList,app]
-      }
-      else{
-        updatedList.push(app)
-      }
+    //   let updatedList=[]
+    //   if(existingList){
+    //     const isDuplicate =existingList.some(a=>a.id===app.id)
+    //     if(isDuplicate) return alert('Installed')
+    //     updatedList=[...existingList,app]
+    //   }
+    //   else{
+    //     updatedList.push(app)
+    //   }
 
-      localStorage.setItem('install',JSON.stringify(updatedList))
+    //   localStorage.setItem('install',JSON.stringify(updatedList))
 
-    }
+    // }
 
     return (
 
@@ -88,7 +89,7 @@ const AppDetails = () => {
 
               {/* button */}
               <div className='py-10'> 
-                <button onClick={handleAddToInstall} 
+                <button onClick={()=>updateList(app)} 
                 className='btn btn-xl border-none  rounded-xl px-5 shadow-md bg-[#00D390] text-white'>Install Now ({size}MB)</button>
               </div>
 
