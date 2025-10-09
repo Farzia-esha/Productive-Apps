@@ -4,7 +4,7 @@
     "image": "https://i.ibb.co.com/F41m0sjS/image.png",
     "title": "FocusFlow - Productivity Timer",
     "companyName": "ZenWorks Ltd.",
-    "description": "Boost your productivity with the Pomodoro-based FocusFlow app that helps you stay on task and take breaks efficiently.",
+    "description": "Boost your productivity with FocusFlow, a Pomodoro-based timer designed to help you manage your work sessions and rest periods efficiently. Set custom work intervals, track your focus statistics, and analyze your progress over time. With soothing background sounds, motivational reminders, and smart focus analytics, FocusFlow ensures you stay disciplined and energized throughout your day. Perfect for students, professionals, and creators aiming to build a consistent work rhythm and eliminate distractions effectively.",
     "size": 42,
     "reviews": 1800,
     "ratingAvg": 4.8,
@@ -22,7 +22,7 @@
     "image": "https://i.ibb.co.com/9HRfSbx5/image.png",
     "title": "TaskHub - To-Do Manager",
     "companyName": "CloudNest Apps",
-    "description": "Organize your tasks, set reminders, and collaborate with teammates effortlessly using TaskHub.",
+    "description": "TaskHub is your all-in-one task management tool designed for modern professionals. Easily create tasks, assign priorities, and set reminders to stay on top of your day. Collaborate with teammates using shared boards and comments, while automatic cloud syncing ensures you never lose progress. With calendar integration, progress charts, and a clean user interface, TaskHub helps you turn chaos into organized productivity.",
     "size": 35,
     "reviews": 1450,
     "ratingAvg": 4.6,
@@ -40,7 +40,7 @@
     "image": "https://i.ibb.co.com/1tvS7J3c/image.png",
     "title": "NoteMate - Smart Notes",
     "companyName": "NextGen Tools",
-    "description": "Capture and organize your ideas instantly with NoteMate. Sync across devices and stay inspired.",
+    "description": "NoteMate allows you to capture ideas, meeting notes, and inspirations instantly. Use tags, folders, and color codes to organize your notes smartly. Add photos, checklists, and voice memos to make your notes more interactive. The app syncs seamlessly across your phone, tablet, and desktop so that your creativity is always within reach. With AI-powered search and offline mode, NoteMate keeps your thoughts safe, accessible, and beautifully organized.",
     "size": 28,
     "reviews": 970,
     "ratingAvg": 4.5,
@@ -58,7 +58,7 @@
     "image": "https://i.ibb.co.com/Z6FmpR2h/image.png",
     "title": "FitTrack - Health & Steps",
     "companyName": "BodySync Ltd.",
-    "description": "Track your steps, calories, and fitness goals with FitTrack’s intuitive dashboard and reports.",
+    "description": "FitTrack helps you stay active and healthy by tracking every step, calorie, and movement you make. It provides a simple yet powerful dashboard that visualizes your daily progress and long-term trends. You can set personalized fitness goals, integrate with smartwatches, and get real-time feedback on your activity level. FitTrack also includes hydration reminders, sleep tracking, and health challenges to keep you motivated and consistent.",
     "size": 58,
     "reviews": 2200,
     "ratingAvg": 4.7,
@@ -76,7 +76,7 @@
     "image": "https://i.ibb.co.com/XZWmJwcq/image.png",
     "title": "MindZen - Meditation & Relax",
     "companyName": "Calmify Apps",
-    "description": "Reduce stress and improve focus with guided meditations and ambient sounds in MindZen.",
+    "description": "MindZen is your daily mental wellness partner offering guided meditations, breathing exercises, and relaxing sounds. It helps reduce stress, anxiety, and improve focus through scientifically backed mindfulness techniques. Track your mood, monitor progress, and explore a variety of themes like sleep, gratitude, and self-confidence. MindZen brings peace and balance to your day, one mindful breath at a time.",
     "size": 50,
     "reviews": 1890,
     "ratingAvg": 4.9,
@@ -94,7 +94,7 @@
     "image": "https://i.ibb.co.com/F41m0sjS/image.png",
     "title": "FocusFlow - Productivity Timer",
     "companyName": "ZenWorks Ltd.",
-    "description": "Boost your productivity with the Pomodoro-based FocusFlow app that helps you stay on task and take breaks efficiently.",
+    "description": "FocusFlow brings the Pomodoro technique to life with an elegant interface and productivity tracking. Plan your study or work sessions, take timed breaks, and review your daily performance stats. The app also includes focus music, motivational badges, and performance graphs to encourage long-term consistency and goal achievement.",
     "size": 42,
     "reviews": 1800,
     "ratingAvg": 4.8,
@@ -107,13 +107,12 @@
       { "name": "5 star", "count": 950 }
     ]
   },
-  
   {
     "id": 7,
     "image": "https://i.ibb.co.com/PGCJVYqZ/image.png",
     "title": "Musicify - Stream Your Vibes",
     "companyName": "EchoWave Studios",
-    "description": "Enjoy ad-free streaming, curated playlists, and offline mode in the Musicify app.",
+    "description": "Musicify lets you stream unlimited songs, podcasts, and playlists without ads. Its smart recommendation engine learns your listening habits and curates the perfect mix for your mood. You can create personalized playlists, explore trending artists, and listen offline anytime. With crisp audio quality and social sharing options, Musicify brings music lovers a premium listening experience.",
     "size": 55,
     "reviews": 2950,
     "ratingAvg": 4.9,
@@ -126,13 +125,12 @@
       { "name": "5 star", "count": 1660 }
     ]
   },
-
   {
     "id": 8,
     "image": "https://i.ibb.co.com/4n7mdb5j/image.png",
     "title": "ShopWise - Online Shopping",
     "companyName": "MegaMart Inc.",
-    "description": "Find the best deals and discounts on fashion, electronics, and groceries with ShopWise.",
+    "description": "ShopWise is your ultimate shopping companion with thousands of products from top brands. Discover the latest deals in fashion, tech, beauty, and groceries—all in one app. Track your orders in real time, enjoy secure payments, and earn rewards on every purchase. With daily flash sales, personalized recommendations, and free shipping offers, ShopWise transforms online shopping into a delightful experience.",
     "size": 68,
     "reviews": 5200,
     "ratingAvg": 4.6,
@@ -145,13 +143,12 @@
       { "name": "5 star", "count": 3460 }
     ]
   },
-
   {
     "id": 9,
     "image": "https://i.ibb.co.com/WJJ3PfG/image.png",
     "title": "Alarmy - Smart Alarm Clock",
     "companyName": "WakeUp Apps",
-    "description": "Wake up smarter with Alarmy’s puzzles and missions that ensure you never oversleep again.",
+    "description": "Alarmy ensures you never oversleep again by combining alarms with engaging missions. Solve puzzles, take photos, or shake your phone to turn off the alarm. Customize wake-up tones, set multiple schedules, and track your sleep patterns. With gentle pre-alarm features and motivational quotes, Alarmy makes waking up smarter and easier every morning.",
     "size": 41,
     "reviews": 1750,
     "ratingAvg": 4.6,
@@ -169,7 +166,7 @@
     "image": "https://i.ibb.co.com/Cd7LTND/image.png",
     "title": "TimePlanner - Schedule & Tasks",
     "companyName": "FlowSync",
-    "description": "Easily manage tasks and events with TimePlanner’s visual scheduling interface.",
+    "description": "TimePlanner helps you design a structured day with intuitive scheduling and reminders. Plan tasks visually using color-coded timelines and set recurring events effortlessly. Stay productive with smart notifications and sync across multiple devices. Whether for work, study, or personal routines, TimePlanner ensures you manage every minute efficiently.",
     "size": 44,
     "reviews": 1300,
     "ratingAvg": 4.5,
@@ -187,7 +184,7 @@
     "image": "https://i.ibb.co.com/F41m0sjS/image.png",
     "title": "FocusPlant - Pomodoro Forest",
     "companyName": "GrowMore Studios",
-    "description": "Stay productive and grow your virtual forest using Pomodoro sessions that reward focus.",
+    "description": "FocusPlant gamifies your productivity by growing a virtual forest as you complete Pomodoro sessions. Each focus session plants a seed that grows into a tree, helping you visualize your achievements. Unlock new plant species, decorate your forest, and track focus streaks. It’s the perfect blend of focus, fun, and environmental awareness for motivated learners and workers.",
     "size": 48,
     "reviews": 2100,
     "ratingAvg": 4.7,
@@ -200,13 +197,12 @@
       { "name": "5 star", "count": 1300 }
     ]
   },
-
   {
     "id": 12,
     "image": "https://i.ibb.co.com/7dYNVNsp/image.png",
     "title": "Foodora - Food Delivery",
     "companyName": "UrbanEats Co.",
-    "description": "Order food from your favorite restaurants and track your delivery in real-time with Foodora.",
+    "description": "Foodora makes ordering food simple and fast. Browse menus from nearby restaurants, place your order in seconds, and track your delivery in real time. From local favorites to global chains, Foodora connects you with thousands of options. With easy payment methods, live tracking, and exclusive deals, enjoy delicious meals delivered hot and fresh to your door.",
     "size": 70,
     "reviews": 3200,
     "ratingAvg": 4.7,
@@ -224,7 +220,7 @@
     "image": "https://i.ibb.co.com/MkDpXGn9/image.png",
     "title": "TravelGo - Flight & Hotel Deals",
     "companyName": "WanderSoft",
-    "description": "Discover and book cheap flights, hotels, and vacation packages with TravelGo’s smart deals.",
+    "description": "TravelGo helps you explore the world at the best prices. Find and compare cheap flights, hotels, and vacation packages within seconds. Save your favorite destinations, get real-time alerts for price drops, and enjoy exclusive discounts. Whether you’re planning a weekend getaway or an international adventure, TravelGo simplifies every step of your travel booking journey.",
     "size": 49,
     "reviews": 1850,
     "ratingAvg": 4.5,
@@ -237,13 +233,12 @@
       { "name": "5 star", "count": 910 }
     ]
   },
-
-    {
+  {
     "id": 14,
     "image": "https://i.ibb.co.com/j9HMgz7w/demo-app-6.webp",
     "title": "PlanMate - Daily Planner",
     "companyName": "SmartLife Inc.",
-    "description": "Manage your time better with PlanMate’s smart scheduling and productivity insights.",
+    "description": "PlanMate helps you organize your life with clarity. Schedule meetings, manage deadlines, and set smart reminders in one place. Visualize your day, week, or month with a clean and colorful interface. The app learns your habits to suggest ideal planning routines, helping you achieve goals faster and maintain a healthy work-life balance.",
     "size": 39,
     "reviews": 1620,
     "ratingAvg": 4.5,
@@ -261,7 +256,7 @@
     "image": "https://i.ibb.co.com/JwVDjkwL/image.png",
     "title": "Habitly - Build Better Habits",
     "companyName": "FutureWare",
-    "description": "Create routines and build life-changing habits with smart reminders and streak tracking.",
+    "description": "Habitly helps you develop lasting habits through streak tracking, reminders, and motivational insights. Create custom routines for fitness, study, or mindfulness and track your progress visually. With detailed analytics, daily inspiration, and community challenges, Habitly keeps you accountable and motivated toward becoming your best self.",
     "size": 31,
     "reviews": 1200,
     "ratingAvg": 4.4,
@@ -274,14 +269,12 @@
       { "name": "5 star", "count": 450 }
     ]
   },
-
-
   {
     "id": 16,
     "image": "https://i.ibb.co.com/wN4LpHWC/image.png",
     "title": "SnapLink - Smart Social Sharing",
     "companyName": "SocialHive",
-    "description": "Create, shorten, and track your social links easily across all your favorite platforms.",
+    "description": "SnapLink simplifies social media sharing by allowing you to create, shorten, and track links across platforms. Monitor engagement metrics like clicks and reach, and manage campaigns efficiently. Perfect for marketers, influencers, and small businesses who want smarter link control and data-driven insights. SnapLink helps you share more effectively and grow your online presence effortlessly.",
     "size": 29,
     "reviews": 1220,
     "ratingAvg": 4.4,
