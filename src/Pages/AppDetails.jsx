@@ -12,9 +12,26 @@ const AppDetails = () => {
     const app=apps.find(a=>a.id===Number(id))
 
     if(loading) return <p>Loading...</p>
-    const {image,title,companyName,description,size,reviews,ratingAvg,downloads,ratings}= app || {}
+    const {image,title,companyName,description,size,reviews,ratingAvg,downloads}= app || {}
 
-    if (loading) return <p>Loading...</p>
+    const handleAddToInstall =()=>{
+      const existingList=JSON.parse(localStorage.getItem('install'))
+
+      // console.log(JSON.parse(existingList))
+
+      let updatedList=[]
+      if(existingList){
+        const isDuplicate =existingList.some(a=>a.id===app.id)
+        if(isDuplicate) return alert('Installed')
+        updatedList=[...existingList,app]
+      }
+      else{
+        updatedList.push(app)
+      }
+
+      localStorage.setItem('install',JSON.stringify(updatedList))
+
+    }
 
     return (
 
@@ -62,7 +79,8 @@ const AppDetails = () => {
 
               {/* button */}
               <div className='py-10'> 
-                <button className='btn btn-xl border-none  rounded-xl px-5 shadow-md bg-[#00D390] text-white'>Install Now </button>
+                <button onClick={handleAddToInstall} 
+                className='btn btn-xl border-none  rounded-xl px-5 shadow-md bg-[#00D390] text-white'>Install Now ({size}MB)</button>
               </div>
 
             </div>
