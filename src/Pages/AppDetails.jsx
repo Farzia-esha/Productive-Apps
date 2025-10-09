@@ -5,6 +5,15 @@ import downloadImg from '../assets/icon-downloads.png'
 import ratingImg from '../assets/icon-ratings.png'
 import reviewImg from '../assets/icon-review.png'
 
+import {
+  Bar,
+  BarChart,
+  ResponsiveContainer,
+  Tooltip,
+  XAxis,
+  YAxis,
+} from "recharts";
+
 const AppDetails = () => {
     const {id} =useParams();
     const {apps,loading }= useApps()
@@ -12,7 +21,7 @@ const AppDetails = () => {
     const app=apps.find(a=>a.id===Number(id))
 
     if(loading) return <p>Loading...</p>
-    const {image,title,companyName,description,size,reviews,ratingAvg,downloads}= app || {}
+    const {image,title,companyName,description,size,reviews,ratingAvg,downloads,ratings}= app || {}
 
     const handleAddToInstall =()=>{
       const existingList=JSON.parse(localStorage.getItem('install'))
@@ -89,9 +98,24 @@ const AppDetails = () => {
         <div className="flex flex-col w-full ">
           <div className="divider"></div>
         </div>
-        <div>
-          <h1 className="text-2xl font-bold">Ratings</h1>
-        </div>
+
+        {/* chart */}
+        <div className="mt-12 ">
+        <h2 className="text-2xl font-bold mb-4">Ratings</h2>
+        <ResponsiveContainer width="100%" height={300}>
+          <BarChart
+            data={[...ratings].reverse()}
+            layout="vertical"
+            margin={{ top: 20, right: 30, left: 50, bottom: 5 }}
+          >
+            <XAxis type="number" />
+            <YAxis dataKey="name" type="category" />
+            <Tooltip />
+            <Bar dataKey="count" fill="#FF8C00" barSize={30}>
+            </Bar>
+          </BarChart>
+        </ResponsiveContainer>
+      </div>
 
         <div className="flex w-full flex-col py-10">
           <div className="divider text-blue"></div>
