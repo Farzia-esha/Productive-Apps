@@ -6,15 +6,16 @@ import { FaGithub } from "react-icons/fa";
 const Navbar = () => {
   const navLinks = (
     <div className="flex flex-col md:flex-row md:gap-10 font-semibold">
-      <NavLink to="/" className="md:bg-gradient-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text md:text-transparent text-lg flex items-center gap-2 md:underline md:decoration-[#894FEC]">
+      <NavLink to="/" className={({isActive})=>isActive?"md:bg-gradient-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text md:text-transparent text-lg flex items-center gap-2  ":"text-lg flex items-center gap-2 "}>
        Home
       </NavLink>
-      <NavLink to="/apps" className=" text-lg flex items-center gap-2">
+      <NavLink to="/apps" className={({isActive})=>isActive?"md:bg-gradient-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text md:text-transparent text-lg flex items-center gap-2  ":"text-lg flex items-center gap-2 "}>
        Apps
       </NavLink>
-      <NavLink to="/installation" className=" text-lg flex items-center gap-2">
+      <NavLink to="/installation" className={({isActive})=>isActive?"md:bg-gradient-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text md:text-transparent text-lg flex items-center gap-2  ":"text-lg flex items-center gap-2 "}>
        Installation
       </NavLink>
+
     </div>
 
   );

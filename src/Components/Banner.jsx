@@ -43,20 +43,20 @@ const Banner = () => {
         {/* states section */}
         <div className="bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-white py-20 space-y-10 ">
           <h1 className="text-5xl font-bold">Trusted by Millions, Built for You</h1>
-          <div className="flex flex-col md:flex-row gap-10 justify-around items-center">
+          <div className="flex flex-col md:flex-row gap-6 justify-around items-center">
             <div className="space-y-4">
               <p className="text-gray-200">Total Downloads</p>
-              <h1 className="font-extrabold text-6xl ">29.6M</h1>
+              <h1 className="font-extrabold text-5xl ">29.6M</h1>
               <p className="text-gray-200">21% More Than Last Month</p>
             </div>
             <div className="space-y-4">
               <p className="text-gray-200">Total Reviews</p>
-              <h1 className="font-extrabold text-6xl">906K</h1>
+              <h1 className="font-extrabold text-5xl">906K</h1>
               <p className="text-gray-200">46% More Than Last Month</p>
             </div>
             <div className="space-y-4">
               <p className="text-gray-200">Active Apps</p>
-              <h1 className="font-extrabold text-6xl">132+</h1>
+              <h1 className="font-extrabold text-5xl">132+</h1>
               <p className="text-gray-200">31 More Will Launch</p>
             </div>
           </div>

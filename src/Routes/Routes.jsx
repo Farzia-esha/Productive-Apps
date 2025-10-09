@@ -6,13 +6,15 @@ import MainLayout from '../Layouts/MainLayout';
 import ErrorPage from '../Pages/ErrorPage';
 import Installation from '../Pages/Installation';
 import AppDetails from '../Pages/AppDetails';
+import NotFound from '../Pages/NotFound';
+import Loading from '../Components/Loading';
 const router = createBrowserRouter([
   {
     path: "/",
     element: <MainLayout />,
     errorElement: <ErrorPage />,
     // hydrateFallbackElement:,
-    hydrateFallbackElement: <p>Loading...</p>,
+    hydrateFallbackElement: <Loading />,
     children: [
         {
             index: true ,
@@ -31,7 +33,11 @@ const router = createBrowserRouter([
         {
             path: '/AppDetails/:id',
             element: <AppDetails />
-        }
+        },
+        {
+        path :'/notFound',
+        element: <NotFound />
+      }
 
        
     ]

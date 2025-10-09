@@ -1,14 +1,15 @@
 import React from 'react';
 import Banner from '../Components/Banner';
-import { Link, useLoaderData } from 'react-router';
+import { Link } from 'react-router';
 import AppCard from '../Components/AppCard';
 import useApps from '../Hooks/useApps';
+import Loading from '../Components/Loading';
 
 const Home = () => {
 
     // const apps=useLoaderData()
 
-    const {apps,loading,error}=useApps();
+    const {apps,loading}=useApps();
     // console.log(data)
     const featuredApps =apps.slice(0,8)
 
@@ -25,12 +26,19 @@ const Home = () => {
                     <p className="text-gray-500">Explore All Trending Apps on the Market developed by us </p>
                 </div>
 
-                <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 pt-6'>
+                {loading ? (
+            <Loading />
+                ) : (
+
+                 <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 pt-6'>
                 {featuredApps.map(app=>(
                     <AppCard key={app.id} app={app} />
 
                 ))}
             </div>
+                )} 
+
+
             <div className=" mt-10 text-center">
           <Link
             to={"/apps"}

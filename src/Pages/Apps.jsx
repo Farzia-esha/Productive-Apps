@@ -1,14 +1,21 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import useApps from '../Hooks/useApps';
-import { Link } from 'react-router';
+import { Link, useNavigate } from 'react-router';
 import AppCard from '../Components/AppCard';
 import { CiSearch } from "react-icons/ci";
+import Loading from '../Components/Loading';
 
 
 const Apps = () => {
 
     const [search,setSearch]= useState('')
-    const {apps} = useApps()
+    const {apps,loading} = useApps()
+
+
+
+
+    // 
+     const navigate = useNavigate(); 
 
     const term = search.trim().toLocaleLowerCase()
     const searchedApps = 
@@ -16,7 +23,13 @@ const Apps = () => {
         app.title.toLocaleLowerCase().includes(term)
       )
     : apps
-
+// 
+        useEffect(() => {
+        if (term && searchedApps.length === 0) {
+            navigate('/notFound');
+        }
+    }, [term, searchedApps, navigate]);
+    
 
     return (
     
@@ -28,7 +41,7 @@ const Apps = () => {
         </div>
         
         <div className='flex justify-between items-center pr-12 pt-5'>
-            <span className='font-bold px-12 '> ({searchedApps.length}) Apps Found </span>
+            <span className='font-bold px-12 text-xl '> ({searchedApps.length}) Apps Found </span>
 
             {/* <label>
                 <input type="text" />
@@ -51,12 +64,16 @@ const Apps = () => {
         {/* apps */}
         <div className='max-w-screen-xl mx-auto w-full px-4 md:px-8 lg:px-12 py-4 md:py-8 lg:py-5 flex-1'>
 
+        {loading ? (
+        <Loading count={16} />
+      ) : (
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 pt-6'>
                 {searchedApps.map(app=>(
                     <AppCard key={app.id} app={app} />
 
                 ))}
             </div>
+            )}
                  
         </div>
 
