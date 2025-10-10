@@ -23,16 +23,19 @@ const Apps = () => {
     : apps;
 
 
+
     useEffect(() => {
-    if (term) {
-      setSearching(true);
-      const timer = setTimeout(() => {
-        setSearching(false);
-        if (searchedApps.length === 0) navigate('/notFound');
-      }, 800); 
-      return () => clearTimeout(timer);
-    }
-  }, [term, searchedApps, navigate]);
+        if (term) {
+            setSearching(true);
+            const timer = setTimeout(() => {
+                setSearching(false);
+                if (searchedApps.length === 0) navigate('/notFound');
+            }, 300);
+            return () => clearTimeout(timer);
+        } else {
+            setSearching(false);
+        }
+    }, [term, searchedApps, navigate]);
     
 
     return (
@@ -68,7 +71,7 @@ const Apps = () => {
         {/* apps */}
         <div className='max-w-screen-xl mx-auto w-full px-4 md:px-8 lg:px-12 py-4 md:py-8 lg:py-5 flex-1'>
 
-        {(loading ||searching) ? (
+        {(loading ) ? (
         <Loading count={16} />
       ) : (
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 pt-6'>

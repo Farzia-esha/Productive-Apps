@@ -15,7 +15,7 @@ const MainLayout = () => {
 
       const timer = setTimeout(() => {
         setShowLoader(false);
-      }, 1000);
+      }, 800);
 
        return () => clearTimeout(timer);
        } else {
