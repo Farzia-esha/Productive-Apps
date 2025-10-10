@@ -9,26 +9,30 @@ import Loading from '../Components/Loading';
 const Apps = () => {
 
     const [search,setSearch]= useState('')
+    
+    const [searching, setSearching] = useState(false); 
+    
     const {apps,loading} = useApps()
-
-
-
-
-    // 
-     const navigate = useNavigate(); 
+    const navigate = useNavigate(); 
 
     const term = search.trim().toLocaleLowerCase()
     const searchedApps = 
     term ? apps.filter(app =>
         app.title.toLocaleLowerCase().includes(term)
       )
-    : apps
-// 
-        useEffect(() => {
-        if (term && searchedApps.length === 0) {
-            navigate('/notFound');
-        }
-    }, [term, searchedApps, navigate]);
+    : apps;
+
+
+    useEffect(() => {
+    if (term) {
+      setSearching(true);
+      const timer = setTimeout(() => {
+        setSearching(false);
+        if (searchedApps.length === 0) navigate('/notFound');
+      }, 800); 
+      return () => clearTimeout(timer);
+    }
+  }, [term, searchedApps, navigate]);
     
 
     return (
@@ -64,7 +68,7 @@ const Apps = () => {
         {/* apps */}
         <div className='max-w-screen-xl mx-auto w-full px-4 md:px-8 lg:px-12 py-4 md:py-8 lg:py-5 flex-1'>
 
-        {loading ? (
+        {(loading ||searching) ? (
         <Loading count={16} />
       ) : (
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 pt-6'>

@@ -1,14 +1,29 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { IoIosArrowDown } from "react-icons/io";
 import downlaodImg from '../assets/icon-downloads.png';
 import ratingImg from '../assets/icon-ratings.png';
 import { loadApplist, removeFromInstall } from '../Utils/localStorage';
 import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import Loading from '../Components/Loading';
 
 const Installation = () => {
   const [showInstalled, setShowInstalled] = useState(() => loadApplist());
   const [sortOrder, setSortOrder] = useState("none");
+  
+  const [loading, setLoading] = useState(true);
+  
+
+    useEffect(() => {
+    setLoading(true);
+    const timer = setTimeout(() => {
+      setShowInstalled(loadApplist());
+      setLoading(false);
+    }, 800); 
+
+    return () => clearTimeout(timer);
+  }, []);
+
 
   const sortedItem = (() => {
     if (sortOrder === 'size-asc') {
@@ -34,6 +49,8 @@ const Installation = () => {
       },
     });
   };
+
+  if(loading) return <Loading />
 
   return (
     <div className="bg-gray-100 p-12">

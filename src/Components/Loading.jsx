@@ -1,19 +1,18 @@
-import React from 'react'
+import React from 'react';
 
-const Loading = ({ count = 6 }) => {
+import logo from "../assets/logo.png";
+const Loading = () => {
   return (
-    <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4'>
-      {Array.from({ length: count }).map((_, i) => (
-        <div key={i} className='flex flex-col gap-4'>
-          <div className='skeleton h-48 w-full'></div>
-          <div className='skeleton h-4 w-28'></div>
-          <div className='skeleton h-4 w-full'></div>
-          <div className='skeleton h-4 w-full'></div>
-          <div className='skeleton h-4 w-full'></div>
-        </div>
-      ))}
+        <div className="">
+      <h1 className=" flex items-center content-center  md:gap-6 gap-2 justify-center text-center text-2xl md:text-5xl h-screen font-bold text-gray-500">
+        L
+        <figure className="w-8 md:w-12 animate-spin rotate-360 opacity-60">
+          <img className="" src={logo} />
+        </figure>
+        ading.....
+      </h1>
     </div>
-  )
-}
+  );
+};
 
-export default Loading
+export default Loading;

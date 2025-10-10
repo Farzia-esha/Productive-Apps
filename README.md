@@ -1,16 +1,48 @@
-# React + Vite
+# 🚀 Productive Apps
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Productive Apps** is a modern web application that helps users explore, install, and manage productivity-focused mobile apps.  
+It provides a clean interface, smart sorting, and easy installation management to enhance your workflow efficiency.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📖 Description
+Productive Apps is built to promote and organize applications designed to boost productivity and focus.  
+Users can browse available apps, view details, install them, and manage their installed apps easily — all in one place.  
+It features real-time interactions, sorting by app size, and toast notifications for actions like installation and uninstallation.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Features
+- 🧭 **Modern & Responsive UI** with Tailwind CSS and DaisyUI  
+- 🔍 **Search functionality** with “Not Found” redirection  
+- ⚙️ **App sorting by size (Low → High / High → Low)**  
+- 💾 **LocalStorage integration** to save installed apps  
+- 📦 **Uninstall button** that removes app from both UI and localStorage  
+- 🔔 **Toast notifications** for install/uninstall actions  
+- ⏳ **Loading animation** during navigation and search  
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Technologies Used
+- **React.js** ⚛️  
+- **React Router** 🧭  
+- **React icon** 🧭  
+- **Tailwind CSS** 🎨  
+- **DaisyUI** 🌸  
+- **React Toastify** 🔔  
+- **JavaScript (ES6+)**
+
+---
+
+## 🧩 Design File
+You can explore the Figma design here: 
+📁 `Hero IO.fig`
+
+## 💡 Purpose
+To create a smooth and interactive platform that organizes productivity apps,  
+allowing users to install, explore, and manage apps with an elegant UI and responsive experience.
+
+---
+##🧑‍💻 Author
+**Farzia Khandokar Esha**  
+CSE Student | Web Enthusiast  

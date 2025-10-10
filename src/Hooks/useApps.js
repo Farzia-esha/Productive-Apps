@@ -8,16 +8,19 @@ const useApps =()=>{
     const [error,setError]=useState(null)
 
     useEffect(()=>{
-        setLoading(true)
+        setLoading(true);
+
         axios('../data.json')
         .then(data=> setApps(data.data))
         .catch(err=>setError(err))
-        .finally(()=>setLoading(false))
+        .finally(()=>{
+            setTimeout(() =>setLoading(false),1000);
+    });
 
-    },[])
+    },[]);
 
-    return {apps,loading,error}
+    return {apps,loading,error};
 
-}
+};
 
 export default useApps

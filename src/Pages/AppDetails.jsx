@@ -14,8 +14,17 @@ const AppDetails = () => {
   const { id } = useParams();
   const { apps, loading } = useApps();
   const [installed, setInstalled] = useState(false);
-
+  const [showLoading, setShowLoading] = useState(true); 
+  
+  
   const app = apps.find(a => a.id === Number(id));
+
+    useEffect(() => {
+    const timer = setTimeout(() => {
+      setShowLoading(false);
+    }, 1000); // 
+    return () => clearTimeout(timer);
+  }, [loading]);
 
   useEffect(() => {
     const installedApps = loadApplist();
@@ -24,7 +33,7 @@ const AppDetails = () => {
     }
   }, [id]);
 
-  if (loading) return <Loading />;
+  if (loading || showLoading) return <Loading />; //
   if (!app) return <p>App not found!</p>;
 
   const { image, title, companyName, description, size, reviews, ratingAvg, downloads, ratings } = app || {};
